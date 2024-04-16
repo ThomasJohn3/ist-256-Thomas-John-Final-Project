@@ -1,0 +1,21 @@
+/* Adjusting the fixed height of the carousel */
+.carousel-inner {
+  height: 500px; /* Reduced height; adjust as necessary */
+}
+
+/* Ensuring images fit well within the new height, maintaining aspect ratio */
+.carousel-item img {
+  height: 100%;
+  object-fit: cover; /* Keeps the image from stretching */
+  width: auto; /* Maintains aspect ratio */
+  max-height: 100%; /* Ensures the image does not exceed carousel height */
+}
+
+/* Styling for the carousel title */
+.carousel_title {
+  text-align: center;
+  font-size: 40px; /* Slightly smaller font size */
+  color: #ffffff;
+  margin-bottom: 15px; /* Reduced margin */
+  font-weight: bold;
+}
